@@ -1,0 +1,26 @@
+.submit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit button{
+    display: flex;
+    background-color: #990bdb;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .submit button:hover{
+    background-color: #e60b92;
+    color: aliceblue;
+    transition: 1s;
+  }

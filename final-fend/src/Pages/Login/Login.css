@@ -1,0 +1,44 @@
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.butnlogin,
+.forgot-password button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* Text color for buttons */
+    background-color: #990bdb; /* Background color for buttons */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .forgot-password button:hover{
+    background-color: #e60b92;
+    color: aliceblue;
+    transition: 1s;
+}
+
+/* Responsive styles (optional) */
+@media (max-width: 768px) {
+    .form-outer-div {
+        width: 100%;
+    }
+}
+
+.forgot-password{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.forgot-password .forgot{
+    width:fit-content;
+}
+

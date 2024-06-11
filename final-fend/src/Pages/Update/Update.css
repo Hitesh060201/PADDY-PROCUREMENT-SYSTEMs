@@ -1,0 +1,102 @@
+
+  
+  
+  .head {
+    color: #6f00ff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+    
+  }
+  
+  .form-outer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 30px;
+    /* padding: 3rem;
+    width: 40rem; */
+  }
+  .form-outer-div:hover{
+    background: rgb(230, 226, 226) ;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(0, 0, 0);
+    transition:1s;
+  }
+  
+  .regd-form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 500px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    color: #6f00ff;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    /* border: none;
+    border-radius: 0.5rem; */
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 50px;
+    background: rgba(206, 136, 136, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+     border-radius: 10px;
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .form-group input:hover{
+    background: rgba(196, 230, 7, 0.788);
+    transition: 1s;
+  }
+  
+  
+  
+
+  .submit .btn4{
+    border: none;
+    border-radius: 10px;
+    background-color: #990bdb;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    
+  }
+  .submit .btn4:hover{
+    background-color: #f7005f;
+  }
+  .underlineu{
+    text-decoration: none;
+  }
